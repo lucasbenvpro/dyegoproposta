@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Parceria Estratégica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+        }
+        .phase-card {
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+        .phase-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            border-color: #6366f1;
+        }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary .arrow-down {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="antialiased text-slate-700">
+
+    <div class="container mx-auto max-w-5xl p-4 md:p-8">
+
+        <!-- Cabeçalho -->
+        <header class="hero-gradient text-white p-10 rounded-2xl text-center shadow-2xl mb-16">
+            <h1 class="text-4xl md:text-5xl font-extrabold">Proposta de Parceria</h1>
+            <p class="text-2xl font-light mt-2">Para a Construção da sua Arquitetura de Dados</p>
+            <div class="mt-6 text-indigo-200">
+                <p>De: WayMaker</p>
+                <p>Para: Dyego Melo</p>
+            </div>
+        </header>
+
+        <!-- A Nossa Filosofia -->
+        <section class="mb-16 text-center">
+            <h2 class="text-3xl font-bold text-slate-800">Nossa Filosofia: Uma Aliança, Não um Serviço</h2>
+            <!-- O texto descritivo foi removido para a apresentação verbal -->
+        </section>
+
+        <!-- A Jornada da Construção -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-slate-800 text-center mb-10">Nossa Jornada em Etapas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Etapa 1 -->
+                <div class="phase-card bg-white p-6 rounded-xl text-center">
+                    <div class="text-4xl text-indigo-600 mb-4"><i class="fas fa-seedling"></i></div>
+                    <h3 class="text-xl font-bold text-slate-800">Etapa 1: A Fundação</h3>
+                    <p class="text-slate-500 mt-2">Projeto de 3 meses para construir sua fundação de dados e painéis de gestão.</p>
+                </div>
+                <!-- Etapa 2 -->
+                <div class="phase-card bg-white p-6 rounded-xl text-center">
+                    <div class="text-4xl text-indigo-600 mb-4"><i class="fas fa-hand-holding-water"></i></div>
+                    <h3 class="text-xl font-bold text-slate-800">Etapa 2: O Cuidado Contínuo</h3>
+                    <p class="text-slate-500 mt-2">Parceria mensal para garantir dados atualizados e gerar insights estratégicos.</p>
+                </div>
+                <!-- Etapa 3 -->
+                <div class="phase-card bg-white p-6 rounded-xl text-center">
+                    <div class="text-4xl text-indigo-600 mb-4"><i class="fas fa-rocket"></i></div>
+                    <h3 class="text-xl font-bold text-slate-800">Etapa 3: A Evolução Futura</h3>
+                    <p class="text-slate-500 mt-2">Projeto opcional para automatizar 100% da extração de dados e elevar a eficiência.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- O Memorial da Obra (Escopo Detalhado) -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-slate-800 text-center mb-10">O Escopo do Projeto: O Que Será Construído</h2>
+            <div class="space-y-4">
+                <!-- Fase 1: Garimpo -->
+                <details class="bg-white rounded-lg shadow-sm border">
+                    <summary class="p-4 cursor-pointer flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-amber-700"><i class="fas fa-gem mr-3"></i>Etapa 1: Extração e Limpeza de Dados</h3>
+                        <i class="fas fa-chevron-down arrow-down transition-transform"></i>
+                    </summary>
+                    <div class="p-6 border-t">
+                        <!-- A descrição foi removida, os tópicos são o foco -->
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Estudo de Viabilidade (Engenharia Reversa):</strong> Investigar a fundo o sistema Gestta para mapear todos os dados de performance.</li>
+                            <li><strong>Desenvolvimento de Rotinas de Extração:</strong> Criar, no Power Query, processos customizados para extrair os dados do Gestta de forma consistente.</li>
+                            <li><strong>Consolidação e Validação:</strong> Unir os arquivos extraídos e validar a integridade dos dados.</li>
+                            <li><strong>Limpeza e Tratamento:</strong> Padronizar, harmonizar e enriquecer os dados brutos, aplicando as regras de negócio das suas planilhas de metas.</li>
+                        </ul>
+                    </div>
+                </details>
+                <!-- Fase 2: Arquitetura -->
+                 <details class="bg-white rounded-lg shadow-sm border">
+                    <summary class="p-4 cursor-pointer flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-blue-700"><i class="fas fa-sitemap mr-3"></i>Etapa 2: Modelagem de Dados</h3>
+                        <i class="fas fa-chevron-down arrow-down transition-transform"></i>
+                    </summary>
+                    <div class="p-6 border-t">
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Desenho do Modelo Dimensional:</strong> Criar um diagrama visual (esquema estrela) que servirá como a planta baixa oficial do nosso modelo de dados.</li>
+                            <li><strong>Criação de Tabelas:</strong> Construir 1 Tabela Fato (`fTarefas`) e 5 Tabelas Dimensão (`dCalendário`, `dClientes`, `dColaboradores`, etc.).</li>
+                            <li><strong>Criação de KPIs:</strong> Desenvolver os 12 KPIs Básicos e os 9 KPIs Avançados em linguagem DAX para medir a performance do negócio.</li>
+                            <li><strong>Validação Cruzada:</strong> Testar os resultados dos KPIs contra as fontes originais para garantir 100% de precisão.</li>
+                        </ul>
+                    </div>
+                </details>
+                <!-- Fase 3: Vitrine -->
+                <details class="bg-white rounded-lg shadow-sm border">
+                    <summary class="p-4 cursor-pointer flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-green-700"><i class="fas fa-chart-pie mr-3"></i>Etapa 3: Visualização de Dados</h3>
+                        <i class="fas fa-chevron-down arrow-down transition-transform"></i>
+                    </summary>
+                    <div class="p-6 border-t">
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Workshop de Storytelling:</strong> Conduzir uma sessão colaborativa para definir a "pergunta principal" de cada dashboard.</li>
+                            <li><strong>Construção de 2 Dashboards:</strong> Desenvolver o "Painel de Saúde do Escritório" (visão macro) e o "Painel de Performance da Equipe" (visão micro).</li>
+                            <li><strong>Nível de Interatividade:</strong> Implementar interatividade de nível médio, com filtros sincronizados e navegação detalhada (drill-through).</li>
+                            <li><strong>Identidade Visual do Zero:</strong> Criar um tema customizado no Power BI com a paleta de cores e fontes da sua marca.</li>
+                        </ul>
+                    </div>
+                </details>
+                <!-- Fase 4: Bússola -->
+                <details class="bg-white rounded-lg shadow-sm border">
+                    <summary class="p-4 cursor-pointer flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-purple-700"><i class="fas fa-compass mr-3"></i>Etapa 4: Consultoria e Gestão</h3>
+                        <i class="fas fa-chevron-down arrow-down transition-transform"></i>
+                    </summary>
+                    <div class="p-6 border-t">
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Kickoff e Diagnóstico:</strong> Apresentar este escopo detalhado e validar o cronograma.</li>
+                            <li><strong>Apresentação Final e Análise:</strong> Demonstrar os dashboards e apresentar os 3 a 5 principais insights revelados.</li>
+                            <li><strong>Treinamento da Equipe:</strong> Conduzir uma sessão prática para que sua equipe aprenda a extrair valor da ferramenta no dia a dia.</li>
+                            <li>**Gestão Completa do Projeto:** Enviar relatórios semanais de status e ser seu ponto focal para uma comunicação clara e sem ruídos.</li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Nossa Aliança (Investimento) -->
+        <section class="bg-white p-8 md:p-12 rounded-2xl shadow-xl border">
+            <h2 class="text-3xl font-bold text-slate-800 text-center mb-2">Nossa Aliança: Um Investimento na Clareza</h2>
+            <p class="text-center text-slate-500 mb-10">Um trabalho com esta profundidade e complexidade técnica tem um valor de mercado de <strong>R$ 13.140,00</strong>. Para selar nossa parceria, apresento o seguinte plano de investimento:</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Etapa 1: Fundação -->
+                <div class="bg-slate-50 p-6 rounded-xl border">
+                    <h3 class="text-xl font-bold text-slate-800">Etapa 1: Projeto de Fundação</h3>
+                    <p class="text-slate-600 mt-2">A construção completa da sua arquitetura de dados e painéis de gestão.</p>
+                    <p class="text-4xl font-extrabold text-indigo-600 my-4">R$ 9.200,00</p>
+                    <div class="text-sm text-slate-500 space-y-2">
+                        <p><strong class="font-semibold text-slate-700">Mês 1 (Entrada):</strong> R$ 3.680,00</p>
+                        <p><strong class="font-semibold text-slate-700">Mês 2 (Pagamento):</strong> R$ 2.760,00</p>
+                        <p><strong class="font-semibold text-slate-700">Mês 3 (Pagamento Final):</strong> R$ 2.760,00</p>
+                    </div>
+                </div>
+
+                <!-- Etapa 2 e 3 -->
+                <div class="space-y-8">
+                    <div class="bg-slate-50 p-6 rounded-xl border">
+                        <h3 class="text-xl font-bold text-slate-800">Etapa 2: Acompanhamento Mensal</h3>
+                        <p class="text-slate-600 mt-2">Nossa parceria de atualização e análise estratégica, a partir do 4º mês.</p>
+                        <p class="text-3xl font-bold text-indigo-600 my-3">R$ 1.620,00 <span class="text-lg font-medium text-slate-500">/ mês</span></p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-xl border">
+                        <h3 class="text-xl font-bold text-slate-800">Etapa 3: Projeto de Automação</h3>
+                        <p class="text-slate-600 mt-2">O projeto opcional de automação completa da extração de dados.</p>
+                        <p class="text-3xl font-bold text-indigo-600 my-3">R$ 3.420,00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Próximos Passos -->
+        <footer class="mt-16 text-center">
+             <h2 class="text-2xl font-bold text-slate-800 mb-4">Prontos para Começar?</h2>
+             <!-- O texto descritivo foi removido para a apresentação verbal -->
+             <button class="bg-indigo-600 text-white font-bold py-4 px-10 rounded-lg hover:bg-indigo-700 transition-transform transform hover:scale-105 shadow-lg">
+                Aceitar a Proposta e Iniciar a Jornada
+             </button>
+        </footer>
+
+    </div>
+</body>
+</html>
